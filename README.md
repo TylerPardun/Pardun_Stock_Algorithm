@@ -47,3 +47,6 @@ Ringnér, M. What is principal component analysis?. Nat Biotechnol 26, 303–304
 
 ## Backtesting
 We've done lots of backtesting on this model and accuracies are held between 60%-80% throughout the years. In the folder called **backtest_output/**, there is logged data of previously initalized dates and the predictions of stock symbols that were forecasted to move upwards in a significant manner. Price movements for the next 10 trading days after the date of initialization are recorded to see whether the stock symbol actually moved. From this, we can compute accuracies on a week-to-week, month-to-month or even a year-to-year basis. Feel free to conduct your own post-mortem analysis using this data. 
+
+You've probably scrolled all the way to the bottom to see if this is worth your time, I get it. Here is what you've been looking for. Yeah, it's worth it.
+![plot](acc_month.jpg)
