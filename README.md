@@ -12,11 +12,11 @@ You're probably wondering if this is worth your time, I get it so I'll lead off 
 This is a highly functioning, complex, and quite fun application that is used to predict stock prices for the day of trading specified (yyyy-mm-dd). Incorporated is a series of logistical regressions and support vector classifcation algorithms that learn how stocks behaves on Wall Street. The stock symbols that are run through the algorithm are located in **Symbols.csv**. Feel free to add, change, or modify the stock list as you see fit. There is no limit to how many stocks are added or subtracted to the CSV, as long as these stocks are found in the yfinance library, you are good to go. However, the more stocks that are added, the longer the program takes to run. By runnung **psa_main.py** on your machine, all stocks contained in the CSV file will be parsed through and a prediction will be made for each (unless otherwise stated, which will be explored in the following section). This model may work well with some stocks, but may perform poorly with others. Use caution when adding highly volatile stocks. 
 
 ## The Origin Story
-Hi, my name is Tyler Pardun. I'm a Graduate Research Assistant working towards my Master's Degree in Meteorology at the University of Oklahoma. My love for computer science didn't start until after I started diving into the research world of Meteorology. There's a lot of data to be looked at and to be understood. 
+Hi, my name is Tyler Pardun. I'm a Graduate Research Assistant working towards my Master's Degree in Meteorology at the University of Oklahoma. My love for computer science didn't start until after I started diving into the research world of Meteorology. There's a lot of data to be looked at and a lot still to be understood. 
 
 In my free time, I've been wondering if there are any good ways to analyze stock movements and how computers can help with that. This small passion project turned into a very big and useful thing that I'm still perfecting. Anyway, I hope that I can share some of my passion with you here.
 
-My partner in crime, and identical twin brother, is Michael Pardun. He graduated from Illinois State University with a major in Mathematics with an emphasis in statsitics. He is now working as an Operations Analyst and is an aspriring Sports Analyst.
+My partner in crime, and identical twin brother, is Michael Pardun. He graduated from Illinois State University with a major in Mathematics, emphasis in statsitics. He is now working as an Operations Analyst and is an aspriring Sports Analyst for any major league team.
 
 
 ## The Setup
