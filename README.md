@@ -1,9 +1,14 @@
-# Stock_Price_Prediction
- A machine learning algorithm to help make financial decisions to help grow your portfolio on your terms. This is a pythonic machine learning application that predicts stock price movements for either buying shares or option contracts.
+# The Pardun Stock Algorithm
+
+You're probably wondering if this is worth your time, I get it. I'll lead off with this plot. Yeah, it's worth it.
+
+![plot](acc_month.jpg)
+
+## Overview
+ This is a machine learning algorithm to help make financial decisions to help grow your portfolio on your terms. This is a pythonic machine learning application that predicts stock price movements for either buying shares or option contracts.
  
  **DISCLAIMER: This is not financial advice of any kind. You must use this algorithm at your own risk to make your own financial decisions. We are not responsible for financial losses or gains you may encounter. By running this code on your machine, you agree to these terms.**
 
-## Overview
 This is a highly functioning, complex, and quite fun application that is used to predict stock prices for the day of trading specified (yyyy-mm-dd). Incorporated is a series of logistical regressions and support vector classifcation algorithms that learn how stocks behaves on Wall Street. The stock symbols that are run through the algorithm are located in **Symbols.csv**. Feel free to add, change, or modify the stock list as you see fit. There is no limit to how many stocks are added or subtracted to the CSV, as long as these stocks are found in the yfinance library, you are good to go. However, the more stocks that are added, the longer the program takes to run. By runnung **psa_main.py** on your machine, all stocks contained in the CSV file will be parsed through and a prediction will be made for each (unless otherwise stated, which will be explored in the following section). This model may work well with some stocks, but may perform poorly with others. Use caution when adding highly volatile stocks. 
 
 ## The Setup
@@ -47,6 +52,3 @@ Ringnér, M. What is principal component analysis?. Nat Biotechnol 26, 303–304
 
 ## Backtesting
 We've done lots of backtesting on this model and accuracies are held between 60%-80% throughout the years. In the folder called **backtest_output/**, there is logged data of previously initalized dates and the predictions of stock symbols that were forecasted to move upwards in a significant manner. Price movements for the next 10 trading days after the date of initialization are recorded to see whether the stock symbol actually moved. From this, we can compute accuracies on a week-to-week, month-to-month or even a year-to-year basis. Feel free to conduct your own post-mortem analysis using this data. 
-
-You've probably scrolled all the way to the bottom to see if this is worth your time, I get it. Here is what you've been looking for. Yeah, it's worth it.
-![plot](acc_month.jpg)
