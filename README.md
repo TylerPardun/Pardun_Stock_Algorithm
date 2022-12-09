@@ -1,6 +1,6 @@
 # The Pardun Stock Algorithm
 
-You're probably wondering if this is worth your time, I get it so I'll lead off with this plot. Yeah, it think it's worth it.
+You're probably wondering if this is worth your time, I get it so I'll lead off with this plot. Yeah, it's worth it.
 
 ![plot](acc_month.jpg)
 
