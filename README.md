@@ -23,7 +23,7 @@ My partner in crime, and identical twin brother, is Michael Pardun. He graduated
 To set up the environment needed to run what we call PSA, first open up a terminal window and clone this repository and change directories into it
 
 ```
-$ git clone https://github.com/TylerPardun/Stock_Price_Prediction.git
+$ git clone https://github.com/TylerPardun/Pardun_Stock_Algorithm.git
 $ cd Stock_Price_prediction/
 ```
 
