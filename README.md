@@ -24,7 +24,7 @@ To set up the environment needed to run what we call PSA, first open up a termin
 
 ```
 $ git clone https://github.com/TylerPardun/Pardun_Stock_Algorithm.git
-$ cd Stock_Price_prediction/
+$ cd Pardun_Stock_Algorithm/
 ```
 
 Then, run the following to set up the Anaconda environment. We named the environment ml for machine learning. You can change the name of the environment by simply renaming the .yml file to whatever suits you best, we won't judge. Make sure to change the conda environment name when activating the environment too.
