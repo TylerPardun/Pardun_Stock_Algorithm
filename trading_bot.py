@@ -35,7 +35,7 @@ def profit(n,files,cash):
         #Invest only 20% of bankroll
         cash_flow[c+1] = cash_flow[c] + ((cash_flow[c]*0.2)*pct)
 
-    return pct
+    return cash_flow
 
 
 if __name__ == '__main__':
