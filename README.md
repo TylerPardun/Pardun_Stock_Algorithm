@@ -27,11 +27,11 @@ $ git clone https://github.com/TylerPardun/Pardun_Stock_Algorithm.git
 $ cd Pardun_Stock_Algorithm/
 ```
 
-Then, run the following to set up the Anaconda environment. We named the environment ml for machine learning. You can change the name of the environment by simply renaming the .yml file to whatever suits you best, we won't judge. Make sure to change the conda environment name when activating the environment too.
+Then, run the following to set up the Anaconda environment. We named the environment ml for machine learning. You can change the name of the environment by simply putting the name after -n to whatever suits you best, we won't judge. Make sure to change the conda environment name when activating the environment too.
 
 ```
-$ conda env create -f ml.yml
-$ source activate ml
+$ conda env create -f ml.yml -n your_name_here
+$ source activate your_name_here
 ```
 
 ## Usage
