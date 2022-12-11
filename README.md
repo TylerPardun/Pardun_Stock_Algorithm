@@ -30,7 +30,7 @@ $ cd Pardun_Stock_Algorithm/
 Then, run the following to set up the Anaconda environment. It is best to make sure you have the most up-to-date version of anaconda so this will work eith ease. We named the environment ml for machine learning. You can change the name of the environment by simply putting the name after -n to whatever suits you best, we won't judge. Make sure to change the conda environment name when activating the environment too.
 
 ```
-$ conda update --all
+$ conda update conda
 $ conda env create -f ml.yml -n your_name_here
 $ conda activate your_name_here
 ```
