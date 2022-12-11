@@ -31,7 +31,7 @@ Then, run the following to set up the Anaconda environment. We named the environ
 
 ```
 $ conda env create -f ml.yml
-$ source activate ml
+$ conda activate ml
 ```
 
 ## Usage
