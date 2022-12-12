@@ -36,6 +36,8 @@ $ conda env create -f ml.yml -n your_name_here
 $ conda activate your_name_here
 ```
 
+If the environment set up is not working as it should, don't be alarmed. This seems to be a common occurence across other repositories and could very well just be the way each computer is wired up. If this is the case, create a new environment in Anaconda and download the packages needed until **psa_main.py** runs on your machine. Should be simple.
+
 ## Usage
 After the environment is set up in Anaconda, you are able to run **psa_main.py**. There are two options you can choose from. If you are wanting predictions from your list of stocks set in **Symbols.csv** before trading begins on December 9th, 2022, you would want to run
 
