@@ -535,9 +535,10 @@ def main(t,ticker_vals,day,lag_val,forecast_days,outpath,real_time=False):
         #Append or write the file
         try:
             foo = pd.read_csv(outloc)
-            pd.DataFrame(data_dict,index=[t]).to_csv(outloc,mode='a',header=False)
+            #pd.DataFrame(data_dict,index=[t]).to_csv(outloc,mode='a',header=False)
         except FileNotFoundError:
-            pd.DataFrame(data_dict,index=[t]).to_csv(outloc,mode='w',header=True)
+            #pd.DataFrame(data_dict,index=[t]).to_csv(outloc,mode='w',header=True)
+            pass
         return
         
         #Print and organize the output
@@ -587,9 +588,10 @@ def main(t,ticker_vals,day,lag_val,forecast_days,outpath,real_time=False):
         #Append or write the file
         try:
             foo = pd.read_csv(outloc)
-            pd.DataFrame(data_dict,index=[t]).to_csv(outloc,mode='a',header=False)
+            #pd.DataFrame(data_dict,index=[t]).to_csv(outloc,mode='a',header=False)
         except FileNotFoundError:
-            pd.DataFrame(data_dict,index=[t]).to_csv(outloc,mode='w',header=True)
+            #pd.DataFrame(data_dict,index=[t]).to_csv(outloc,mode='w',header=True)
+            pass
         return
 
 if __name__ == '__main__':
@@ -599,7 +601,7 @@ if __name__ == '__main__':
     #########################################################
 
     forecast_days = 1 #Trading days to predict into the future
-    lag_val = 10 #years to go back to train
+    lag_val = 20 #years to go back to train
     ticker_vals = pd.read_csv('Symbols.csv')['symbol'].values
     outpath = 'output/'
 

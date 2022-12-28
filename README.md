@@ -1,4 +1,4 @@
-# The Pardun Stock Algorithm
+# MLStocks
 
 You're probably wondering if this is worth your time, I get it so I'll lead off with this plot. Yeah, it's worth it.
 
@@ -21,11 +21,11 @@ Michael Pardun is not only my partner in crime, but he is also my identical twin
 
 
 ## The Setup
-To set up the environment needed to run what we call PSA, first open up a terminal window and clone this repository and change directories into it
+To set up the environment needed to run this, first open up a terminal window and clone this repository and change directories into it
 
 ```
-$ git clone https://github.com/TylerPardun/Pardun_Stock_Algorithm.git
-$ cd Pardun_Stock_Algorithm/
+$ git clone https://github.com/TylerPardun/MLStocks.git
+$ cd MLStocks/
 ```
 
 Then, run the following to set up the Anaconda environment. It is best to make sure you have the most up-to-date version of anaconda so this will work eith ease. We named the environment ml for machine learning. You can change the name of the environment by simply putting the name after -n to whatever suits you best, we won't judge. Make sure to change the conda environment name when activating the environment too.
